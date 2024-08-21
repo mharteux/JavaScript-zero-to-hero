@@ -46,3 +46,31 @@ year = 1993;
 console.log(typeof year);
 */
 
+// Math operators
+const now = 2037;
+const ageMatheus = now - 1993;
+const ageLilliana = now - 2020;
+console.log(ageMatheus, ageLilliana);
+
+console.log(ageMatheus * 2, ageMatheus / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = 'Matheus';
+const lastName = 'Reynaud';
+console.log(firstName + ' ' + lastName);
+
+// Assignments operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageMatheus > ageLilliana); // >, <, >=, <=
+console.log(ageLilliana >= 18);
+
+const isFullAge = ageLilliana >= 18;
+
+console.log(now - 1993 > now - 2020);
